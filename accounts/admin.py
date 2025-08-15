@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import UserProfile
+from .models import UserProfileModel,AddEducationModel,AddExperienceModel
 # Register your models here.
-m=[UserProfile]
+m=[UserProfileModel,AddEducationModel,AddExperienceModel]
 admin.site.register(m)
